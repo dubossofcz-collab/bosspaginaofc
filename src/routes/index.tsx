@@ -129,7 +129,7 @@ function Index() {
         <section id="planos" className="relative py-20 md:py-28">
           <div className="absolute inset-x-0 top-1/3 mx-auto h-96 max-w-4xl rounded-full bg-primary/10 blur-3xl" aria-hidden />
           <div className="relative mx-auto max-w-7xl px-5">
-            <SectionHead eyebrow="Planos e preços" title="Escolha o plano ideal para sua empresa." sub="Pagamento único por projeto. Contratação direta pelo WhatsApp." />
+            <SectionHead eyebrow="Planos e preços" title="Escolha o plano ideal para sua empresa." sub="Compare os planos e contrate diretamente pelo WhatsApp." />
             <div className="grid items-stretch gap-6 lg:grid-cols-3">
               {PLANS.map((p) => <PlanCard key={p.name} plan={p} />)}
             </div>
@@ -266,7 +266,6 @@ function PlanCard({ plan: p }: { plan: Plan }) {
         <span className="text-lg text-silver-dim">R$</span>
         <span className={cn("font-display text-5xl font-bold", premium ? "text-metal" : "text-foreground")}>{p.price}</span>
       </p>
-      <p className="text-xs text-muted-foreground">pagamento único</p>
       <ul className="my-8 flex-1 space-y-3">
         {p.items.map((it) => (
           <li key={it} className="flex gap-3 text-sm text-secondary-foreground">
