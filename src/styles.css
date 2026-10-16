@@ -113,6 +113,7 @@
   --color-whatsapp: var(--whatsapp);
   --font-display: "Chakra Petch", ui-sans-serif, sans-serif;
   --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-hero: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
 @utility text-metal {
