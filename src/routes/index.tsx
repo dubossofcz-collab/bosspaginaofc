@@ -96,7 +96,7 @@ function Index() {
               <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/40 bg-accent/40 px-4 py-1.5 text-xs font-medium text-primary-glow">
                 <Sparkles className="h-3.5 w-3.5" /> Desenvolvimento de sites sob medida
               </p>
-              <h1 className="text-metal text-4xl font-bold leading-[1.05] sm:text-5xl lg:text-6xl">Seu negócio merece um site à altura da sua marca.</h1>
+              <h1 className="text-metal font-hero font-extrabold text-4xl leading-[1.05] sm:text-5xl lg:text-6xl">Seu negócio merece um site à altura da sua marca.</h1>
               <p className="mt-6 max-w-xl text-base text-muted-foreground sm:text-lg">
                 A BOSS DEV transforma ideias em sites modernos, profissionais e personalizados para empresas que querem fortalecer sua presença digital e conquistar novas oportunidades.
               </p>
